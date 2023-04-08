@@ -27,12 +27,8 @@ public class UserManager implements Manager {
 				System.out.println("Kullanıcı:" + user.getUserName());
 				System.out.println("Kullanıcı başarıyla giriş yaptı.");
 				return true;
-			}if (result && resultPassword) {
-				break;
 			}
 				System.out.println("Kullanıcı adı veya şifre hatalı.");
-
-
 		}
 
 		return false;
